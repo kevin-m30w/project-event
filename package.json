@@ -10,8 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "@sidebase/nuxt-auth": "^1.2.0",
+    "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.1",
     "nuxt": "^4.3.1",
     "vue": "^3.5.28",
     "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.9",
+    "tsx": "^4.21.0"
   }
 }
